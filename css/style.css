@@ -4,7 +4,7 @@ html{
   font-size: 20px;
 }
 
-.debug .container{
+.debug{
   border: 1px solid black;
 }
 
@@ -75,6 +75,25 @@ html{
 .fa-bars{
   vertical-align: middle;
   line-height: 80px;
+}
+
+
+
+
+.jumbotron{
+  height: 500px;
+  border: 1px solid black;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.text{
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media screen and (max-width: 1391px){
